@@ -1,13 +1,13 @@
 # deep-learning-challenge
 Module Challenge 21 README
 
-## Overview - of the analysis: Explain the purpose of this analysis.
+## Overview - of the analysis:
 The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. With your knowledge of machine learning and neural networks, you’ll use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
 
 The data is a csv containing over 34000 organizations that have received funding from Alphabet Soup before.  The data includes columns:
     ['EIN', 'NAME', 'APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'STATUS', 'INCOME_AMT', 'SPECIAL_CONSIDERATIONS', 'ASK_AMT', 'IS_SUCCESSFUL']
 
-From these variables we will attempt to build, train and evaluate a model predicting successful campaigns.  
+Using these variables, the goal is to build, train, and evaluate a model predicting successful campaigns.  
 
 ## Results
 Using bulleted lists and images to support your answers, address the following questions:
@@ -28,4 +28,4 @@ The model loss and accuracy against the test data can be seen below:
 ```215/215 - 0s - loss: 0.5586 - accuracy: 0.7248 - 148ms/epoch - 687us/step```
 ```Loss: 0.5585647225379944, Accuracy: 0.724781334400177```
 
-We did not achieve the desired result of 75% accuracy.  Perhaps modifying the type of model or the layers would increase the overall success of the model.  Additionally, furthur preprocessing of the data could also be helpful in increasing performance.  
+Did not achieve the desired result of 75% accuracy.  Perhaps modifying the type of model or the layers would increase the overall success of the model.  Additionally, furthur preprocessing of the data could also be helpful in increasing performance.  
