@@ -20,7 +20,7 @@ Using bulleted lists and images to support your answers, address the following q
 #### Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?   **The hidden layers/neurons were: first:32, second:16, and third:8, with relu, relu, and tanh respectfully as the activations.  They were chosen pretty randomly to be honest** 
 * Were you able to achieve the target model performance?  **I unfortunately was not able to reach 75% on my model, the highest I could achieve was about 73.75**
-![Accuracy Plot](./accuracy_plot.png)
+![Accuracy Plot](./Starter_Code/accuracy_plot.png)
 * What steps did you take in your attempts to increase model performance? **I tried increasing the number of layers and neurons as well as tried different activations all with little improvement in the model.**
 
 ## Summary
