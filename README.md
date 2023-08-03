@@ -25,7 +25,7 @@ Using bulleted lists and images to support your answers, address the following q
 
 ## Summary
 The model loss and accuracy against the test data can be seen below:  
-```215/215 - 0s - loss: 0.5586 - accuracy: 0.7248 - 148ms/epoch - 687us/step``
+```215/215 - 0s - loss: 0.5586 - accuracy: 0.7248 - 148ms/epoch - 687us/step```
 ```Loss: 0.5585647225379944, Accuracy: 0.724781334400177```
 
 We did not achieve the desired result of 75% accuracy.  Perhaps modifying the type of model or the layers would increase the overall success of the model.  Additionally, furthur preprocessing of the data could also be helpful in increasing performance.  
